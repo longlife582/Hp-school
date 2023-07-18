@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cormorant+Upright:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Itim&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.c1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.herosections {
+  height: 100vh;
+  position: relative;
+  top: -40px;
+  background: linear-gradient(0deg, #dd755b5d, rgba(0, 0, 0, 0.352)),
+    url(/Projects/HpSchool/image/bbb.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero2 h1 {
+  color: rgba(232, 75, 35, 0.69);
+  text-align: center;
+  font-family: Itim;
+  font-size: 56px;
+  width: 801px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62px; /* 110.714% */
+  text-align: center;
+}
+
+.hero2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  left: 250px;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+
+.hero2 button {
+  /* padding: 20px 10px; */
+  width: 177px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 257px;
+  background: #f45510;
+  border: none;
+  color: #fff;
+  font-family: Itim;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  box-shadow: 0px 6px 17px 0px rgba(84, 90, 232, 0.25);
+}
+
+.rulesection {
+  width: 100%;
+  height: 50vh;
+  /* margin-top: ; */
+  padding-top: 20px;
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.ruleicon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 70px;
+}
+
+.ruleicon svg {
+  width: 133.333px;
+  height: 152.576px;
+  flex-shrink: 0;
+  border-radius: 40px 0px;
+  padding: 20px;
+  border: 6px solid rgba(232, 75, 35, 0.63);
+  border-radius: 40px 0px;
+  background: #def1fe;
+  box-shadow: 0px 10px 30px 0px rgba(83, 162, 192, 0.2);
+}
+
+.rules h3 {
+  color: #ff9763;
+  text-align: center;
+  font-family: Itim;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  border-bottom: 2px solid #ff9763b4;
+}
+
+.rules p {
+  overflow: hidden;
+  color: #6b6b6d;
+  text-overflow: ellipsis;
+  /* whitespace: nowrap; */
+  font-family: Itim;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 143.478% */
+  text-transform: lowercase;
+}
+.ru {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  gap: 20px;
+  position: relative;
+  top: -25px;
+}
+
+.ru h2 {
+  width: 179.309px;
+  height: 41.985px;
+  flex-shrink: 0;
+  color: rgba(232, 75, 35, 0.63);
+  text-align: center;
+  font-family: Itim;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

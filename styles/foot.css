@@ -1,0 +1,120 @@
+footer {
+    position: relative;
+    /* top: 500px; */
+    background: #ff9763;
+    height: 50vh;
+  }
+  
+  .insidefoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    padding: 20px 10px;
+    /* border-bottom: 2px solid #fff; */
+  }
+  .quick {
+    position: relative;
+    top: -30px;
+  }
+  
+  .quick h2 {
+    color: #fff;
+    font-family: Itim;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 2px solid white;
+  }
+  
+  .insidefoot p {
+    color: #fff;
+    font-family: Itim;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .other h2 {
+    color: #fff;
+    font-family: Itim;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 35%;
+    border-bottom: 2px solid white;
+  }
+  
+  .lastfoot {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .lastfoot h4 {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Itim;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: -90px;
+    padding-right: 40px;
+    line-height: 26px; /* 144.444% */
+  }
+  
+  .inp {
+    display: flex;
+    align-items: left;
+    /* margin-left: 20px; */
+  }
+  
+  .inp input {
+    width: 259.811px;
+    height: 38.143px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: hsl(0, 0%, 100%);
+    border: none;
+    margin-left: -90px;
+  }
+  
+  .footbtn {
+    width: 112.456px;
+    height: 38.143px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #e84b23;
+    border: none;
+    color: #fff;
+    /* margin-right: 100px; */
+    position: absolute;
+    right: 90px;
+  }
+  
+  .line {
+    width: 1496px;
+    height: 0.1px;
+    flex-shrink: 0;
+    /* background: #fff; */
+    /* margin-top: -20px; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(217, 215, 215);
+    margin-left: -32px;
+  }
+  
+  .c1 h6 {
+    color: #fff;
+    font-family: Itim;
+    font-size: 10.41px;
+    font-style: normal;
+    font-weight: 400;
+    /* padding: 0 20px; */
+    padding-bottom: 20px;
+    line-height: normal;
+  }
+  
