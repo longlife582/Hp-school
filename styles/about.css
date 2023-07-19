@@ -18,7 +18,7 @@ body {
   position: relative;
   top: -40px;
   background: linear-gradient(0deg, #dd755b5d, rgba(0, 0, 0, 0.352)),
-    url(/Projects/HpSchool/image/bbb.svg);
+    url(../image/bbb.svg);
   background-position: center;
   background-repeat: no-repeat;
 }

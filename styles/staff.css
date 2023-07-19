@@ -20,7 +20,7 @@ body {
   position: relative;
   top: -50px;
   height: 100vh;
-  background: url(/Projects/HpSchool/image/about\ img.svg);
+  background: url(../image/about\ img.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
