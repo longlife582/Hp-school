@@ -142,3 +142,21 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+
+/* .dropdown {
+  position: absolute;
+  top: 69px;
+  right: 50px;
+  background-color: white;
+  padding: 30px 30px;
+
+  /* width: 80%; */
+  /* display: none;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+} */ 

@@ -183,3 +183,31 @@ body {
   text-transform: lowercase;
   
 }
+
+
+.dropdown {
+  position: absolute;
+  top: 69px;
+  right: 50px;
+  background-color: white;
+  padding: 30px 30px;
+
+  /* width: 80%; */
+  display: none;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dropdown li {
+  color: #0c101a;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: 0.2px;
+}
