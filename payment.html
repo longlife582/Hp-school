@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header.css">
+    <!-- <link rel="stylesheet" href="./styles/index.css"> -->
+    <link rel="stylesheet" href="./styles/payment.css">
+    <title>payment</title>
+</head>
+<body>
+    <header>
+        <img src="./image/logo.svg" alt="" />
+        <nav>
+          <ul>
+            <a href="index.html"><li>home</li></a>
+            <a href="about.html"><li>about</li></a>
+            <a href="staff.html"> <li>Staff</li></a>
+            <a href="contactUs.html"> <li>contact us</li></a>
+            <button class="explore">Explore</button>
+            <div class="dropdown">
+              <li>Attendance </li>
+              <li>Calendar</li>
+              <li>Notice Board</li>
+              <li>Pay Fees</li>
+              <li>Support</li>
+            </div>
+          </ul>
+        </nav>
+      </header>
+
+      <form id="paymentForm" >
+        <div class="input-container">
+            <input type="text" name="name" id="name" required>
+            <label for="name"> Full Name</label>
+        </div>
+
+
+        <div class="input-container">
+            <input type="email" name="email" id="email" required>
+            <label for="email">Email Address</label>
+        </div>
+
+        <div class="input-container">
+            <input type="text" name="mat" id="mat" required>
+            <label for="subject">Mat Number</label>
+        </div>
+
+        <div class="input-container">
+            <input type="number" name="phone" id="amount" required>
+            <label for="phone">Amount</label>
+        </div>
+
+        <button type="submit">Pay</button>
+    </form>
+  
+</body>
+<script src="https://js.paystack.co/v1/inline.js"></script>
+<script src="./js/payment.js"></script>
+</html>

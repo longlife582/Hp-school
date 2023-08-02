@@ -276,7 +276,7 @@ body {
   top: 300px;
   border-radius: 4px;
   padding-top: 20px;
-  overflow-x: hidden; /* Hide the horizontal scroll bar */
+  overflow-x: hidden; 
 
   /* background: rgba(255, 151, 99, 0.09); */
   /* display: grid;
@@ -290,9 +290,18 @@ body {
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  /* overflow-x: scroll; */
+  /* overflow-y: hidden; */
+  animation: scroll-tray 18s linear infinite;
 }
+ @keyframes scroll-tray{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-2000px);
+  }
+ }
 
 .img1 {
   scroll-snap-align: center;
